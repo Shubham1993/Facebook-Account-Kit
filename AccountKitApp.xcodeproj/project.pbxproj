@@ -13,6 +13,13 @@
 		510A86F41EB4DD8900341FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510A86F21EB4DD8900341FED /* Main.storyboard */; };
 		510A86F61EB4DD8900341FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510A86F51EB4DD8900341FED /* Assets.xcassets */; };
 		510A86F91EB4DD8900341FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510A86F71EB4DD8900341FED /* LaunchScreen.storyboard */; };
+		510A87021EB4E60400341FED /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 510A87001EB4E60400341FED /* AccountKitStrings.bundle */; };
+		510A87031EB4E60400341FED /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510A87011EB4E60400341FED /* AccountKit.framework */; };
+		510A87061EB4E8D500341FED /* Themes.m in Sources */ = {isa = PBXBuildFile; fileRef = 510A87051EB4E8D500341FED /* Themes.m */; };
+		510A87181EB5155000341FED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510A87171EB5155000341FED /* UIKit.framework */; };
+		510A871A1EB5156D00341FED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510A87191EB5156D00341FED /* Foundation.framework */; };
+		510A871C1EB5157500341FED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510A871B1EB5157500341FED /* QuartzCore.framework */; };
+		510A871E1EB5158800341FED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510A871D1EB5158800341FED /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,14 @@
 		510A86F51EB4DD8900341FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		510A86F81EB4DD8900341FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		510A86FA1EB4DD8900341FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510A87001EB4E60400341FED /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		510A87011EB4E60400341FED /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		510A87041EB4E8D500341FED /* Themes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Themes.h; sourceTree = "<group>"; };
+		510A87051EB4E8D500341FED /* Themes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Themes.m; sourceTree = "<group>"; };
+		510A87171EB5155000341FED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		510A87191EB5156D00341FED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		510A871B1EB5157500341FED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		510A871D1EB5158800341FED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510A871E1EB5158800341FED /* CoreGraphics.framework in Frameworks */,
+				510A871C1EB5157500341FED /* QuartzCore.framework in Frameworks */,
+				510A871A1EB5156D00341FED /* Foundation.framework in Frameworks */,
+				510A87181EB5155000341FED /* UIKit.framework in Frameworks */,
+				510A87031EB4E60400341FED /* AccountKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +62,13 @@
 		510A86DD1EB4DD8800341FED = {
 			isa = PBXGroup;
 			children = (
+				510A871D1EB5158800341FED /* CoreGraphics.framework */,
+				510A871B1EB5157500341FED /* QuartzCore.framework */,
+				510A87191EB5156D00341FED /* Foundation.framework */,
+				510A87171EB5155000341FED /* UIKit.framework */,
 				510A86E81EB4DD8800341FED /* AccountKitApp */,
+				510A87001EB4E60400341FED /* AccountKitStrings.bundle */,
+				510A87011EB4E60400341FED /* AccountKit.framework */,
 				510A86E71EB4DD8800341FED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +93,8 @@
 				510A86F71EB4DD8900341FED /* LaunchScreen.storyboard */,
 				510A86FA1EB4DD8900341FED /* Info.plist */,
 				510A86E91EB4DD8800341FED /* Supporting Files */,
+				510A87041EB4E8D500341FED /* Themes.h */,
+				510A87051EB4E8D500341FED /* Themes.m */,
 			);
 			path = AccountKitApp;
 			sourceTree = "<group>";
@@ -139,6 +167,7 @@
 				510A86F91EB4DD8900341FED /* LaunchScreen.storyboard in Resources */,
 				510A86F61EB4DD8900341FED /* Assets.xcassets in Resources */,
 				510A86F41EB4DD8900341FED /* Main.storyboard in Resources */,
+				510A87021EB4E60400341FED /* AccountKitStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				510A86F11EB4DD8900341FED /* ViewController.m in Sources */,
+				510A87061EB4E8D500341FED /* Themes.m in Sources */,
 				510A86EE1EB4DD8800341FED /* AppDelegate.m in Sources */,
 				510A86EB1EB4DD8800341FED /* main.m in Sources */,
 			);
@@ -263,6 +293,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AccountKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.AccountKitApp;
@@ -274,6 +308,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AccountKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.AccountKitApp;

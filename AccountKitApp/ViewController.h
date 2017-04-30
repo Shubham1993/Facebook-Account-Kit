@@ -6,9 +6,10 @@
 //  Copyright © 2017 perpule. All rights reserved.
 //
 
+@import AccountKit;
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AKFViewControllerDelegate>
 
 
 @end
